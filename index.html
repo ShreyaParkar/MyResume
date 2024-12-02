@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+    <!--box icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <!--header-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Shreya</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home nav_icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#educcation" class="nav_link">
+                            <i class='bx bx-book nav_icon'></i>Education
+                        </a>
+                    </li>
+                    
+                    <li class="nav_list">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#project" class="nav_link">
+                            <i class='bx bx-code-alt nav_icon'></i>Projects <!--check-->
+                        </a>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#certificates" class="nav_link">
+                            <i class='bx bx-award nav_icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#references" class="nav_link">
+                            <i class='bx bx-link-external nav_icon'></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+
+    </header>
+    <main class="l-main bd-container">
+        <!--all elements within this div, is genetater as pdf-->
+        <div class="resume">
+            <div class="resume_left">
+                <!--home-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="perfil.jpg" alt="" class="home_img">
+
+                            <h1 class="home_title">SHREYA <b>PARKAR</b></h1>
+                            <h3 class="home_profession">IT ENGINEER</h3>
+                            <!--button to download cv saved in pdf format.available for mobile -->
+                            <div>
+                                <a download="" href="Shreya_Parkar.pdf" class="home_button-movil">
+                                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="home_address bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon'></i>Shiroda Ponda-Goa 403103
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-envelope home_icon'></i>parkarshreya30@gmail.com
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-phone home_icon'></i>+91 9146723289
+                            </span>
+                        </div>
+                    </div>
+                     <!--theme chenge button-->
+                     <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                     <!--button to generate and downloed the pdf.available for desktop-->
+                    
+
+                </section>
+               
+                <!--social-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2> 
+
+                    <div class="social_container bd-grid">
+                        <a href="https://www.linkedin.com/" target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin-square social_icon'></i>@shrey30
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="social_link">
+                            <i class='bx bxl-github social_icon'></i>@shreya30
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social_link">
+                            <i class='bx bxl-instagram social_icon'></i>@shreyy.30
+                        </a>
+                    </div>
+                </section>
+
+                <!--profile-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile_description"> Aspiring IT student seeking an internship opportunity to leverage and enhance skills in web
+                        development and Android development. Eager to contribute to innovative projects while gaining
+                        practical experience and insights within a dynamic team environment. Passionate about aligning
+                        my personal growth with the objectives of the company.</p>
+                </section>
+
+                <!--Education-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education_container bd-grid">
+
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_studies">Padre Conciecao College Of Engineering</h3>
+                                <span class="education_title">Information Technology</span>
+                                <span class="education_result">7.2 CGPA</span>
+                                <span class="education_year">2021 - 2025</span>
+                            </div>
+                        </div>
+                        
+                    
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education-studies">Shiroda Higher Secondary School</h3>
+                                <span class="education_result">70.5%</span>
+                                <span class="education_year">2019 - 2021</span>
+                            </div>
+                        </div>
+
+
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!--<span class="education_line"></span>-->
+                            </div>
+
+                            <div class="education_data bd-grid">
+                                <h3 class="education-studies">St. Joseph Higher School</h3>
+                                <span class="education_result">77.83%</span>
+                                <span class="education_year">2019</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--skills-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills_content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>HTML
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>CSS
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Javascript
+                            </li>
+                        </ul>
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>C/C++
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>JAVA
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>PHP
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+            <div class="resume_right">
+            <!--Projects-->
+            <section class="Project section" id="project">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="project_container bd-grid">
+
+                    <div class="project_content">
+                        <div class="project_time">
+                            <span class="project_rounder"></span>
+                            <span class="project_line"></span>
+                        </div>
+                        <div class="project_data bd-grid">
+                            <h3 class="project_title">Student Data Management</h3>
+                            <!--<span class="project_year"></span>-->
+                            <p class="project_description">Create read update delete operation on student data, using PHP and MYSQL</p>
+                        </div>
+                    </div>
+
+                    <div class="project_content">
+                        <div class="project_time">
+                            <span class="project_rounder"></span>
+                            <span class="project_line"></span>
+                        </div>
+                        <div class="project_data bd-grid">
+                            <h3 class="project_title">Webpage</h3>
+                            <p class="project_description">Created responsive landing page , using HTML CSS and JAVASCRIPT</p>
+                        </div>
+                    </div>
+
+                    <div class="project_content">
+                        <div class="project_time">
+                            <span class="project_rounder"></span>
+                            <!--<span class="project_line"></span>-->
+                        </div>
+                        <div class="project_data bd-grid">
+                            <h3 class="project_title">Personal Portfolio</h3>
+                            <p class="project_description">Created amimated responsive personal portfolio, using HTML CSS and JAVASCRIPT </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--cerificates-->
+            <section class="cerificate section" id="certificates">
+                <h2 class="section-title">Certificates</h2>
+                <div class="certificate_container bd-grid">
+                    <div class="certificate_content">
+                        <h3 class="certificate_title">NPTEL Course in Software Testing</h3>
+                    </div>
+                    <div class="certificate_content">
+                        <h3 class="certificate_title">NPTEL Course in Intellectual Property</h3>
+                    </div>
+                    <div class="certificate_content">
+                        <h3 class="certificate_title">Diploma Course in Computer Management</h3>
+                        <p class="certificate_description">Window, MS Word, MS Excel, MS PowerPoint, Internet </p>
+                    </div>
+                </div>               
+            </section>
+
+            <!--references-->
+            <section class="refernces section" id="references">
+                <h2 class="section-title">References</h2>
+
+                <div class="reference_container bd-grid">
+                    <!--
+                    <div class="references_content bd-grid">
+                        <div class="references_subtitle"></div>
+                        <h3 class="references_title"></h3>
+                        <ul class="refrences_contact">
+                            <li></li>
+                        </ul>
+                    </div>
+                    -->
+
+                </div>
+            </section>
+
+            <!--language-->
+            <section class="language section">
+                <h2 class="section-title">Languages</h2>
+
+                <div class="language_container">
+                    <ul class="language_content bd-grid">
+                        <li class="language_name">
+                            <span class="language_circle"></span>English
+                        </li>
+                        <li class="language_name">
+                            <span class="language_circle"></span>Konkani
+                        </li>
+                        <li class="language_name">
+                            <span class="language_circle"></span>Hindi
+                        </li>
+                        <li class="language_name">
+                            <span class="language_circle"></span>Marathi
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <!--intrests-->
+            <section class="intrests section">
+                <h2 class="section-title">Intrestes</h2>
+
+                <div class="interests_container bd-grid">
+
+                    <div class="interests_content">
+                        <i class='bx bx-headphone interests_icon'></i>
+                        <span class="interests_name">Music</span>
+                    </div>  
+                    <div class="interests_content ">
+                        <i class='bx bxs-plane-alt interests_icon'></i>
+                        <span class="interests_name">Travel</span>
+                    </div>  
+                    <div class="interests_content">
+                        <i class='bx bx-book interests_icon'></i>
+                        <span class="interests_name">Book</span>
+                    </div> 
+                    <div class="interests_content">
+                        <i class='bx bx-dumbbell interests_icon'></i>
+                        <span class="interests_name">Fitness</span>
+                    </div>  
+
+                </div>
+            </section>
+
+            </div>
+        </div>
+    </main>
+    
+    <!--scroll top-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop_icon'></i>
+    </a>
+
+    <!--html2pdf-->
+    <script src=""></script>
+
+    <!--main js-->
+    <script src="main.js"></script>
+
+</body>
+</html>
